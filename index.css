@@ -1,0 +1,97 @@
+*{
+	padding:auto;
+	margin: auto;
+}
+
+body{
+
+	background:url("pic/body.gif");
+	background-size: cover;
+}
+ .hader{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	width:100%;
+	background-color: green;
+	position: absolute;
+	overflow: hidden;
+
+	
+	
+}
+li a{
+  display: block;
+  text-decoration: none;
+  padding: 14px 14px;
+  color: white;
+}
+.sub-heder li a {
+	float: left;
+}
+.sub li a{
+	float: right;
+}
+ li a:hover{
+	background-color: black;
+}
+.my-gov{
+	height: 70px;
+	background:url(pic/bongobondu.JPG);
+	background-size: cover;
+}
+.the{
+	height: 277px;
+	background: url(pic/flag-1.jpg);
+	background-size: cover;
+}
+.and{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 50px  50px  50px  50px;
+}
+.logo{
+	
+	width: 900px;
+	
+	margin: auto;
+	display: flex;
+}
+.img{
+	padding:30px;
+	margin: auto;
+
+}
+.service{
+	margin: auto;
+	width: 700px;
+	background-color: skyblue;
+	border-top: 7px solid green;
+	padding:30px;
+	text-align: center;
+	font-size: 30px;
+	font-color:white;
+}
+.box{
+	width: 500px;
+	height: 50px;
+	background-color: white;
+	border-radius: 30px;
+	display:flex;
+	align-items:center;
+
+}
+
+.box  i{
+	font-size: 20px;
+	color: #777;
+}
+.box  input{
+	flex: 0.9;
+	height: 20px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	padding-right:50px;
+}
